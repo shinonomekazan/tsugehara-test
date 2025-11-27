@@ -5,7 +5,7 @@
  * @returns The sum of a and b
  */
 export function add(a: number, b: number): number {
-  return a + b;
+	return a + b;
 }
 
 /**
@@ -15,7 +15,7 @@ export function add(a: number, b: number): number {
  * @returns The difference between a and b
  */
 export function subtract(a: number, b: number): number {
-  return a - b;
+	return a - b;
 }
 
 /**
@@ -25,7 +25,7 @@ export function subtract(a: number, b: number): number {
  * @returns The product of a and b
  */
 export function multiply(a: number, b: number): number {
-  return a * b;
+	return a * b;
 }
 
 /**
@@ -36,8 +36,8 @@ export function multiply(a: number, b: number): number {
  * @throws Error if b is zero
  */
 export function divide(a: number, b: number): number {
-  if (b === 0) {
-    throw new Error('Cannot divide by zero');
-  }
-  return a / b;
+	if (b === 0) {
+		throw new Error('Cannot divide by zero');
+	}
+	return a / b;
 }

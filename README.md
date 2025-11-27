@@ -85,16 +85,19 @@ npm start
 このプロジェクトはテストにJestを使用しています。テストは `src/__tests__` ディレクトリに配置されています。
 
 全てのテストを実行：
+
 ```bash
 npm test
 ```
 
 ウォッチモードでテストを実行：
+
 ```bash
 npm run test:watch
 ```
 
 カバレッジレポートを生成：
+
 ```bash
 npm run test:coverage
 ```
@@ -128,6 +131,7 @@ TypeScript設定は、最大限の型安全性のためにストリクトモー�
 ### ESLint (`eslint.config.js`)
 
 ESLintは以下で設定されています：
+
 - TypeScript ESLintパーサーとプラグイン
 - Prettier統合
 - 推奨ルールセット
