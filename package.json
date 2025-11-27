@@ -1,6 +1,6 @@
 {
   "name": "tsugehara-test",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A TypeScript template repository with testing, linting, and formatting",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

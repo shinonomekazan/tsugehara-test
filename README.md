@@ -1,141 +1,141 @@
 # tsugehara-test
 
-A comprehensive TypeScript template repository with modern development tools and best practices.
+モダンな開発ツールとベストプラクティスを備えた、包括的なTypeScriptテンプレートリポジトリです。
 
-## Features
+## 機能
 
-- 🚀 TypeScript for type-safe development
-- 🧪 Jest for testing with coverage reporting
-- 🎨 ESLint + Prettier for code quality and formatting
-- 📦 Pre-configured build scripts
-- 🔧 Ready-to-use project structure
+- 🚀 型安全な開発のためのTypeScript
+- 🧪 カバレッジレポート付きのJestテスト
+- 🎨 コード品質とフォーマットのためのESLint + Prettier
+- 📦 事前設定済みのビルドスクリプト
+- 🔧 すぐに使えるプロジェクト構造
 
-## Prerequisites
+## 前提条件
 
-- Node.js (v16 or higher recommended)
-- npm or yarn
+- Node.js (v16以上を推奨)
+- npmまたはyarn
 
-## Getting Started
+## はじめに
 
-### Installation
+### インストール
 
 ```bash
 npm install
 ```
 
-### Development
+### 開発
 
-Run the application in development mode with ts-node:
+ts-nodeを使用して開発モードでアプリケーションを実行します：
 
 ```bash
 npm run dev
 ```
 
-### Building
+### ビルド
 
-Build the TypeScript code to JavaScript:
+TypeScriptコードをJavaScriptにコンパイルします：
 
 ```bash
 npm run build
 ```
 
-### Running
+### 実行
 
-Run the compiled JavaScript:
+コンパイルされたJavaScriptを実行します：
 
 ```bash
 npm start
 ```
 
-## Scripts
+## スクリプト
 
-- `npm run build` - Compile TypeScript to JavaScript
-- `npm run dev` - Run the application in development mode
-- `npm start` - Run the compiled application
-- `npm test` - Run tests
-- `npm run test:watch` - Run tests in watch mode
-- `npm run test:coverage` - Run tests with coverage report
-- `npm run lint` - Lint the codebase
-- `npm run lint:fix` - Lint and auto-fix issues
-- `npm run format` - Format code with Prettier
-- `npm run format:check` - Check code formatting
-- `npm run clean` - Remove build artifacts
+- `npm run build` - TypeScriptをJavaScriptにコンパイル
+- `npm run dev` - 開発モードでアプリケーションを実行
+- `npm start` - コンパイルされたアプリケーションを実行
+- `npm test` - テストを実行
+- `npm run test:watch` - ウォッチモードでテストを実行
+- `npm run test:coverage` - カバレッジレポート付きでテストを実行
+- `npm run lint` - コードベースをリント
+- `npm run lint:fix` - リントして問題を自動修正
+- `npm run format` - Prettierでコードをフォーマット
+- `npm run format:check` - コードフォーマットをチェック
+- `npm run clean` - ビルド成果物を削除
 
-## Project Structure
+## プロジェクト構造
 
 ```
 .
 ├── src/
-│   ├── __tests__/       # Test files
+│   ├── __tests__/       # テストファイル
 │   │   └── math.test.ts
-│   ├── index.ts         # Main entry point
-│   └── math.ts          # Example module
-├── dist/                # Compiled JavaScript (generated)
-├── coverage/            # Test coverage reports (generated)
-├── eslint.config.js     # ESLint configuration
-├── .prettierrc          # Prettier configuration
-├── tsconfig.json        # TypeScript configuration
-├── jest.config.js       # Jest configuration
-├── .gitignore           # Git ignore rules
-└── package.json         # Project dependencies and scripts
+│   ├── index.ts         # メインエントリーポイント
+│   └── math.ts          # サンプルモジュール
+├── dist/                # コンパイルされたJavaScript（生成）
+├── coverage/            # テストカバレッジレポート（生成）
+├── eslint.config.js     # ESLint設定
+├── .prettierrc          # Prettier設定
+├── tsconfig.json        # TypeScript設定
+├── jest.config.js       # Jest設定
+├── .gitignore           # Git無視ルール
+└── package.json         # プロジェクトの依存関係とスクリプト
 ```
 
-## Testing
+## テスト
 
-This project uses Jest for testing. Tests are located in the `src/__tests__` directory.
+このプロジェクトはテストにJestを使用しています。テストは `src/__tests__` ディレクトリに配置されています。
 
-Run all tests:
+全てのテストを実行：
 ```bash
 npm test
 ```
 
-Run tests in watch mode:
+ウォッチモードでテストを実行：
 ```bash
 npm run test:watch
 ```
 
-Generate coverage report:
+カバレッジレポートを生成：
 ```bash
 npm run test:coverage
 ```
 
-## Code Quality
+## コード品質
 
-### Linting
+### リント
 
-ESLint is configured with TypeScript support and Prettier integration.
+ESLintはTypeScriptサポートとPrettier統合で設定されています。
 
 ```bash
 npm run lint
 npm run lint:fix
 ```
 
-### Formatting
+### フォーマット
 
-Prettier is configured for consistent code formatting.
+Prettierは一貫したコードフォーマットのために設定されています。
 
 ```bash
 npm run format
 npm run format:check
 ```
 
-## Configuration
+## 設定
 
 ### TypeScript (`tsconfig.json`)
 
-The TypeScript configuration targets ES2020 with strict mode enabled for maximum type safety.
+TypeScript設定は、最大限の型安全性のためにストリクトモードを有効にしたES2020をターゲットにしています。
 
 ### ESLint (`eslint.config.js`)
 
-ESLint is configured with:
-- TypeScript ESLint parser and plugin
-- Prettier integration
-- Recommended rule sets
+ESLintは以下で設定されています：
+- TypeScript ESLintパーサーとプラグイン
+- Prettier統合
+- 推奨ルールセット
 
 ### Prettier (`.prettierrc`)
 
-Prettier is configured with standard formatting rules.
+Prettierは標準的なフォーマットルールで設定されています。
 
-## License
+## ライセンス
 
-ISC
+MIT
