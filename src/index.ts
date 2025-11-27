@@ -1,23 +1,23 @@
 import { add, subtract, multiply, divide } from './math';
 
 /**
- * Main entry point of the application
+ * アプリケーションのメインエントリーポイント
  */
 function main(): void {
 	console.log('TypeScript Template Repository');
 	console.log('==============================\n');
 
-	// Example usage of the math functions
+	// 数学関数の使用例
 	const a = 10;
 	const b = 5;
 
-	console.log(`Addition: ${a} + ${b} = ${add(a, b)}`);
-	console.log(`Subtraction: ${a} - ${b} = ${subtract(a, b)}`);
-	console.log(`Multiplication: ${a} * ${b} = ${multiply(a, b)}`);
-	console.log(`Division: ${a} / ${b} = ${divide(a, b)}`);
+	console.log(`加算: ${a} + ${b} = ${add(a, b)}`);
+	console.log(`減算: ${a} - ${b} = ${subtract(a, b)}`);
+	console.log(`乗算: ${a} * ${b} = ${multiply(a, b)}`);
+	console.log(`除算: ${a} / ${b} = ${divide(a, b)}`);
 }
 
-// Run the main function if this file is executed directly
+// このファイルが直接実行された場合にmain関数を実行
 if (require.main === module) {
 	main();
 }

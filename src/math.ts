@@ -1,43 +1,43 @@
 /**
- * Adds two numbers together.
- * @param a - The first number
- * @param b - The second number
- * @returns The sum of a and b
+ * 2つの数値を加算します。
+ * @param a - 1つ目の数値
+ * @param b - 2つ目の数値
+ * @returns aとbの合計
  */
 export function add(a: number, b: number): number {
 	return a + b;
 }
 
 /**
- * Subtracts the second number from the first.
- * @param a - The first number
- * @param b - The second number
- * @returns The difference between a and b
+ * 1つ目の数値から2つ目の数値を減算します。
+ * @param a - 1つ目の数値
+ * @param b - 2つ目の数値
+ * @returns aとbの差
  */
 export function subtract(a: number, b: number): number {
 	return a - b;
 }
 
 /**
- * Multiplies two numbers together.
- * @param a - The first number
- * @param b - The second number
- * @returns The product of a and b
+ * 2つの数値を乗算します。
+ * @param a - 1つ目の数値
+ * @param b - 2つ目の数値
+ * @returns aとbの積
  */
 export function multiply(a: number, b: number): number {
 	return a * b;
 }
 
 /**
- * Divides the first number by the second.
- * @param a - The dividend
- * @param b - The divisor
- * @returns The quotient of a divided by b
- * @throws Error if b is zero
+ * 1つ目の数値を2つ目の数値で除算します。
+ * @param a - 被除数
+ * @param b - 除数
+ * @returns aをbで割った商
+ * @throws bがゼロの場合にエラーをスロー
  */
 export function divide(a: number, b: number): number {
 	if (b === 0) {
-		throw new Error('Cannot divide by zero');
+		throw new Error('ゼロで除算できません');
 	}
 	return a / b;
 }
