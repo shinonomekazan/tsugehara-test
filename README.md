@@ -12,7 +12,7 @@
 
 ## 前提条件
 
-- Node.js (v16以上を推奨)
+- Node.js (v22以上を推奨)
 - npmまたはyarn
 
 ## はじめに
@@ -72,6 +72,7 @@ npm start
 │   └── math.ts          # サンプルモジュール
 ├── dist/                # コンパイルされたJavaScript（生成）
 ├── coverage/            # テストカバレッジレポート（生成）
+├── .editorconfig        # EditorConfig設定
 ├── eslint.config.js     # ESLint設定
 ├── .prettierrc          # Prettier設定
 ├── tsconfig.json        # TypeScript設定
@@ -140,6 +141,10 @@ ESLintは以下で設定されています：
 
 Prettierは標準的なフォーマットルールで設定されています。
 
+### EditorConfig (`.editorconfig`)
+
+EditorConfigは、異なるエディタやIDE間で一貫したコーディングスタイルを維持するために設定されています。
+
 ## ライセンス
 
-MIT
+[MIT](LICENSE)
