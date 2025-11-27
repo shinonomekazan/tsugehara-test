@@ -2,26 +2,21 @@ name: テスト
 
 on:
   pull_request:
-    branches: [main]
   push:
     branches: [main]
 
 jobs:
   test:
-    runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        node-version: [18.x, 20.x]
+    runs-on: ubuntu-24.04
 
     steps:
       - name: チェックアウト
         uses: actions/checkout@v4
 
-      - name: Node.js ${{ matrix.node-version }} のセットアップ
+      - name: Node.js 22 のセットアップ
         uses: actions/setup-node@v4
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: 22
           cache: 'npm'
 
       - name: 依存関係のインストール
