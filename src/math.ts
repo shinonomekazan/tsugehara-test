@@ -37,7 +37,7 @@ export function multiply(a: number, b: number): number {
  */
 export function divide(a: number, b: number): number {
 	if (b === 0) {
-		throw new Error('ゼロで除算できません');
+		throw new Error("ゼロで除算できません");
 	}
 	return a / b;
 }

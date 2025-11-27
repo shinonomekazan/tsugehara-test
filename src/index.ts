@@ -1,11 +1,11 @@
-import { add, subtract, multiply, divide } from './math';
+import { add, subtract, multiply, divide } from "./math";
 
 /**
  * アプリケーションのメインエントリーポイント
  */
 function main(): void {
-	console.log('TypeScript Template Repository');
-	console.log('==============================\n');
+	console.log("TypeScript Template Repository");
+	console.log("==============================\n");
 
 	// 数学関数の使用例
 	const a = 10;
